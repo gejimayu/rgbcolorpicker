@@ -1,4 +1,5 @@
-# rgbcolorpicker
+# RGB Color Guessing game
+
 Game of guessing color given the RGB value
 
 Static website. 
