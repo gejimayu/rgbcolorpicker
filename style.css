@@ -1,0 +1,79 @@
+body
+{
+	background-color: #232323;
+	font-family: "Work Sans";
+}
+
+h1
+{
+	color: white;
+	text-align: center;
+	background: steelblue;
+	margin:0;
+	text-transform: uppercase;
+	padding: 15px 0;
+}
+
+.square
+{
+	margin: 1.6%;
+	width: 30%;
+	background-color: purple;
+	padding-top: 30%;
+	float: left;
+	border-radius: 15%;
+	transition: background 0.4s;
+}
+
+.container
+{
+	max-width: 600px;
+}
+
+#stripe
+{
+	text-align: center;
+	background: white;
+	color: steelblue;
+	font-family: "Arial";
+	margin-bottom: 1%;
+}
+
+.selected
+{
+	background: steelblue;
+	color: white;
+}
+
+#thergb
+{
+	font-size: 1.75em;
+	font-weight: 600;
+	letter-spacing: 5px;
+}
+
+button
+{
+	border: none;
+	background: none;
+	font-weight: 600;
+	text-transform: uppercase;
+	height: 100%;
+	transition: all 0.4s;
+	outline: none;
+}
+
+#message
+{
+	width: 20%;
+	display: inline-block;
+	height: 100%;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+button:hover
+{
+	background: steelblue;
+	color: white;
+}
